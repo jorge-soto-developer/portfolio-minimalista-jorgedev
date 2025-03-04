@@ -12,7 +12,9 @@
     "@material/web": "^2.2.0",
     "@tailwindcss/vite": "^4.0.9",
     "astro": "^5.4.1",
-    "ninja-keys": "^1.2.2"
+    "hotkeypad": "^1.0.1",
+    "ninja-keys": "^1.2.2",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
