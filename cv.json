@@ -5,7 +5,7 @@
     "image": "/me.jpg",
     "email": "jorgesoto.webdesigner@gmail.com",
     "phone": "(+56) 959454084",
-    "url": "https://midu.dev",
+    "url": "#",
     "summary": "Soy Diseñador y Desarrollador Front-End con 4 años de experiencia, especializado en crear interfaces atractivas y funcionales. Actualmente me desempeño como freelancer y creador de contenido, y he tenido la oportunidad de trabajar en una empresa. Estoy comprometido con el aprendizaje continuo y en busca de una oportunidad para dedicarme a esta profesión a tiempo completo, aportando mis habilidades en diseño y desarrollo web para crear experiencias digitales innovadoras.",
     "location": {
       "city": "Quilpué",
@@ -53,109 +53,139 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Instituto profesional DUOC UC",
-    "url": "https://www.duoc.cl/",
-    "area": "Desarrollo y Diseño Web",
-    "studyType": "Técnico de nivel superior",
-    "startDate": "Marzo-2023",
-    "endDate": "Julio-2025",
-    "score": "6.0",
-    "courses": [
-      "-Arquitectura y diseño de interfaces = UX-UI",
-      "-Lenguaje Semántico y hoja de estilo = HTML5-CSS",
-      "-Lenguajes de Programación y Administracion de contenidos = JavaScript-SQL-PHP",
-      "-Emprendimiento y servicios web = Emprendimiento-Servicios Freelance"
-    ]
-  }],
-
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto profesional DUOC UC",
+      "url": "https://www.duoc.cl/",
+      "area": "Desarrollo y Diseño Web",
+      "studyType": "Técnico de nivel superior",
+      "startDate": "Marzo-2023",
+      "endDate": "Julio-2025",
+      "score": "6.0",
+      "courses": [
+        "-Arquitectura y diseño de interfaces = UX-UI",
+        "-Lenguaje Semántico y hoja de estilo = HTML5-CSS",
+        "-Lenguajes de Programación y Administracion de contenidos = JavaScript-SQL-PHP",
+        "-Emprendimiento y servicios web = Emprendimiento-Servicios Freelance"
+      ]
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "Bootstrap5",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Figma",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
       "name": "MySQL",
       "level": "Intermedio",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Intermedio",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
       "level": "Intermedio",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "React",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     }
   ],
@@ -177,9 +207,8 @@
       "github": "",
       "highlights": [
         "Desarrollo de la interfaz de usuario",
-        "Diseño de la experiencia de usuario",
-        "Creación de la arquitectura de la aplicación",
-        "En desarrollo"
+        "Diseño de la interfaz de usuario",
+        "terminado"
       ],
       "url": "https://eesanjuandedios.cl/"
     }

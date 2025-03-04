@@ -34,7 +34,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
                 ><!-- poner icono -->
                 {city}, {region}
             </span>
-            <footer>
+            <footer class="print">
+                {printInfo}
+            </footer>
+            <footer class="no-print">
                 {
                     email && (
                         <a
