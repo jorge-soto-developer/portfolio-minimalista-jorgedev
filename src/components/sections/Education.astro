@@ -1,0 +1,20 @@
+---
+import Section from "../Section.astro";
+import { education } from "@cv";
+---
+
+<Section title="Educación">
+    <ul>
+        {
+            education.map((item) => (
+                <li>
+                    <h2>{item.institution}</h2>
+                    <p>{item.studyType}</p>
+                    <p>
+                        {item.startDate} - {item.endDate}
+                    </p>
+                </li>
+            ))
+        }
+    </ul>
+</Section>

@@ -1,1 +1,26 @@
+/* print.css */
+@media print {
+    @page {
+        margin: 0;
+    }
+    .no-print {
+        display: none;
+    }
+}
 
+@media print {
+    /* Asegurarse de que el pie de página o elementos no deseados no se impriman */
+    .no-print {
+      display: none;
+    }
+
+    section {
+     /* Evita que se haga un salto de página dentro de la sección */
+      break-inside: avoid;       /* Esta propiedad es más moderna y es una alternativa */
+    }
+  
+    /* Opcional: si deseas evitar también los saltos de página entre las secciones */
+    body {
+      page-break-before: avoid;
+    }
+  }
