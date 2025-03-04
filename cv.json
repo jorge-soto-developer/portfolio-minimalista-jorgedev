@@ -124,7 +124,7 @@
       ]
     },
     {
-      "name": "Node",
+      "name": "Figma",
       "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Backend", "JavaScript", "Servidor"
@@ -149,13 +149,6 @@
       "level": "Intermedio",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Intermedio",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework"
       ]
     },
     {
