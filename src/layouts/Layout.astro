@@ -42,6 +42,7 @@ const { image, summary, url } = basics;
 			monospace;
 		background: #fff;
 		letter-spacing: -0.025rem;
+		overflow-x: hidden;
 	}
 
 	body,
@@ -112,6 +113,22 @@ const { image, summary, url } = basics;
 
 		article {
 			break-inside: avoid;
+		}
+	}
+
+	@media (max-width: 600px) {
+		footer[data-astro-cid-ee6fx2xf] {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+
+	@media (max-width: 600px) {
+		footer[data-astro-cid-anhloy43] a[data-astro-cid-anhloy43] {
+			height: 48px; /* Aumenta el tamaño */
+			width: 48px;
+			padding: 8px; /* Mayor área de toque */
+			font-size: 1.2rem; /* Aumenta el texto si lo hay */
 		}
 	}
 </style>
