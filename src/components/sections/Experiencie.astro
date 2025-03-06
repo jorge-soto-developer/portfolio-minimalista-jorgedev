@@ -39,7 +39,7 @@ import { work } from "@cv";
                                         <h4>{position}</h4>
                                     </div>
 
-                                    <div>
+                                    <div class="tiempo">
                                         <time
                                             datetime={startDate}
                                             data-title={startDate}
@@ -95,7 +95,7 @@ import { work } from "@cv";
 
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between !important;
         align-items: flex-start;
         margin-bottom: 4px;
     }
@@ -142,9 +142,7 @@ import { work } from "@cv";
         position: relative;
     }
 
-    @media (width <= 700px) {
-        time {
-            text-align: right;
-        }
+    .tiempo {
+        white-space: nowrap;
     }
 </style>
